@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('../img/LogoMandok.png') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.judul {
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000;
+  margin-top: 20px;
+}
+
+.judul span {
+  font-size: 20px;
+  font-weight: bold;
+text-shadow: 2px 2px 4px #000;
+}
+
+.logo img {
+  width: 90px;
+  margin-top: 20px;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 25px;
+  padding: 0 20px;
+}
+
+.menu-box {
+  background-color: rgba(0, 100, 90, 0.85);
+  border-radius: 15px;
+  width: 280px;
+  padding: 25px 10px;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.menu-box:hover {
+  background-color: #1f4f4d;
+  border: 2px solid #ffffff;
+    color: white;
+  box-shadow: 0 4px 10px rgb(255, 255, 255);  /* Efek shadow */
+  transition: all 0.3s ease;     /* Biar animasi halus */ 
+  transform: translateY(-5px);
+}
+
+.menu-box i {
+  font-size: 70px;
+  margin-bottom: 35px;
+  color: #f7f7f7;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.menu-box p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+  text-shadow: 1px 1px 2px #000;
+}
+
+footer {
+  margin-top: 60px;
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px #000;
+}

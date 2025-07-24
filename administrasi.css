@@ -1,0 +1,149 @@
+/* RESET DAN FONTS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', 'Inter', sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  padding: 0;
+  margin: 0;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #31796d;
+  padding: 10px 30px;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.title h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.title span {
+  font-size: 12px;
+  color: #d9f3e8;
+}
+
+.demo-button {
+  margin-left: 15px;
+  padding: 5px 15px;
+  background-color: #6d70f7;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nav .menu {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.nav .menu li {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  transition: color 0.2s ease;
+}
+
+.nav .menu li i {
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.nav .menu li:hover {
+  color: #c4ffec;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.account span {
+  font-size: 16px;
+  font-weight:bold;
+  text-shadow: 2px 2px 4px #272424;
+}
+
+.profile-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white;
+}
+
+/* JUDUL HALAMAN */
+.judul {
+  text-align: center;
+  font-size: 32px;
+  margin: 40px 0 30px 0;
+  color: #2c3e50;
+}
+
+/* GRID MENU UTAMA */
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 0 30px 40px;
+}
+
+.menu-box {
+  background-color: white;
+  border-radius: 15px;
+  padding: 30px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.menu-box i {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #3498db;
+}
+
+.menu-box span {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.menu-box:hover {
+  background-color: #3498db;
+  color: white;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+}
+
+.menu-box:hover i {
+  color: white;
+}
